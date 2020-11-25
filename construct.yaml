@@ -1,0 +1,19 @@
+name: TextMap
+version: 0.0.2
+
+install_in_dependency_order: True
+
+channels:
+  - http://repo.anaconda.com/pkgs/main/
+
+specs:
+  - python 3.5*
+  - conda
+  - notebook
+  - plotly
+  - openpyxl
+
+license_file: EULA.txt
+
+# Welcome image for Windows installer
+welcome_image: ravens.jpg                  [win]
